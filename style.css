@@ -36,7 +36,7 @@ animation-timing-function: linear;
   0%{
     background-color: transparent;
   }
-  0.0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001%{
+  0.5%{
     background-color:rgba(36, 36, 40, .8);
     backdrop-filter: blur(10px);
   }
@@ -46,6 +46,7 @@ animation-timing-function: linear;
   }
   
 }
+
 nav header{
     background-color: transparent;
     margin-top: 10px ;width: inherit;
@@ -2147,6 +2148,11 @@ font-size: small;
 }
 }
 @media only screen and (max-width:420px ) {
+  nav{
+    animation: none;
+    position: relative;
+    background-color: transparent;
+  }
   .carousel-item {
     div{
       img:nth-child(odd){
@@ -2262,6 +2268,48 @@ width: 350px !important;
 }
 
 @media only screen and (max-width:400px ) {
+    .carousel-item {
+    div{
+      img:nth-child(odd){
+        display: none;
+      }
+      img:nth-child(even){
+width: 100% !important;
+height: 300px !important;
+      }
+    }
+  }
+.spotext{
+  top: 15vh !important;
+  line-height: 14px;
+  gap: 0;
+
+  h5{
+    display: none;
+    
+  }
+  h6{
+    display: none;
+  }
+  p{
+    display: none;
+  }
+  h1{
+font-size: 2vh !important;
+height: auto !important;
+line-height: 20px !important;
+overflow: hidden;
+  }
+}
+.circrle{
+  top: 1.5vh !important;
+gap: 12px !important;
+line-height: 10px !important;
+  button div{
+    width: 9px !important;
+    height:  9px !important;
+  }
+}
   
 
   .more{
@@ -2360,6 +2408,7 @@ div{
   }
 
 @media only screen and (max-width:375px) {
+
   .carousel-item {
     div{
       img:nth-child(odd){
@@ -2367,7 +2416,7 @@ div{
       }
       img:nth-child(even){
 width: 100% !important;
-height: 320px !important;
+height: 250px !important;
       }
     }
   }
