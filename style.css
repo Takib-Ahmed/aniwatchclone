@@ -4721,7 +4721,7 @@ backdrop-filter: blur(60px);
 }
 
 .loadercontainer{
-  animation: hide 5s linear forwards;
+  animation: hide 8s linear forwards;
   
 }
 @keyframes hide {
@@ -4746,7 +4746,7 @@ display: none;
 
 
 .showbody{
-animation: showbody 5.1s linear forwards;
+animation: showbody 8.1s linear forwards;
 
 }
 @keyframes showbody {
